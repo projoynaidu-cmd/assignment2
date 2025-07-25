@@ -1,121 +1,80 @@
-## 🌟 WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-002 😎
+# 🌼 Flower Market
 
-### 📅 Deadline For 60 marks: 25th July, 2025 (11:59 pm ⏱️)
+A beautiful and fully responsive flower shop landing page built using **HTML** and **Tailwind CSS**. The project showcases modern design patterns including card layouts, overlays, responsive navigation, and section-based structure—all optimized for a seamless user experience across all devices.
 
-### 📅 Deadline For 50 marks: 26th July, 2025 (11:59 pm ⏱️)
+## 🚀 Live Demo
 
-### 📅 Deadline For 30 marks:\*\* Any time after 26th July.
+👉 [View Live Site](https://projoynaidu-cmd.github.io/assignment2/)  
 
----
-
-## ✅ Main Requirements (50 Marks)
-
-### 1. Navbar
-
-- **Logo/Website name** on the left
-- **Menu items** on the right with **cart icon**
-- **Mobile Responsiveness:**
-  - Logo/website name on the left
-  - Cart icon with name on the right as Figma
-  - Other navbar elements will be hidden for cleaner mobile experience
 
 ---
 
-### 2. Banner
+## 🖼️ Screenshots
 
-- **Image** on the right
-- **Title and paragraph** on the left
-- **Mobile Responsiveness:**
-  - Image moves to the top
-  - Content after image
-  - Content left aligned as Figma
+### 💻 Desktop View
+> _Add a screenshot here_
 
----
-
-### 3. Plants Section
-
-- centered **Title and subtitle** as Figma
-- **8 cards with 4 Collumn View** with image, name, price, and Add to cart button
-- **Mobile Responsiveness:**
-  - Display Cards in 2 Collumn
+### 📱 Mobile View
+> _Add a screenshot here_
 
 ---
 
-### 4. Plants Lover Section
+## ✨ Features
 
-- **Image** on the left
-- **Title and unordered list** on the right as Figma
-- **Mobile Responsiveness:**
-  - Image moves to the top
-  - Content after image
-  - Content left aligned as Figma
-
----
-
-### 5. Join Section
-
-- centered **Join the colorful Bunch** message
-- **Background image** in the full section like Figma
-- **Input box with placeholder** and **subscribe button** like Figma
-- **Mobile Responsiveness:** Responsive design like Figma
+- Responsive Navbar with logo, navigation links, and cart icon
+- Hero section with promotional text and image
+- Product cards with image, name, price, and "Add to Cart" button
+- Plant lover highlight section with image and badge
+- Latest Deals with image overlay cards
+- Newsletter subscription form with background image
+- Responsive footer with useful links and social icons
 
 ---
 
-### 6. Footer Section
+## 🛠️ Technologies Used
 
-- **Website logo** on the left
-- **Home, features link items** just like Figma
-- **Mobile Responsiveness:** Responsive design like Figma
-
----
-
-## 🧪 Challenges Part ( 10 Mark)
-
-### Latest Deal Section
-
-- **Title and subtitles**
-- **Card layout** like Figma
-- **Mobile Responsiveness:** Show a card on display like Figma
+- ✅ HTML5
+- ✅ Tailwind CSS (via CDN)
+- ✅ Font Awesome (for icons)
 
 ---
 
-### Trusted Plant Lover Badge
+## 📂 Project Structure
 
-- Position a Trusted badge at the **Plant Lover** Image as Figma
-- - **Mobile Responsiveness:** Hide the Trusted badge in Mobile Device
-
----
-
-## 🕛 Optional Part ( 0 Marks)
-
-`⚠️ You wont get any support for Optional part. Search Google and try it yourself`
-
-- Create an Animation for Trusted Plant Lover Badge
-
-  - It will Spin infinite times
-
-- Show an Alert with a message `"Flower Added to Cart"` when some one click on **Add to Cart** Button
-
-## ⚙️ Technology Stack
-
-- HTML
-- CSS (Vanilla/ Talwind CSS only)
-- ⚠️ **No libraries (e.g., DaisyUI, Flowbite) allowed.**
+```
+index.html
+/assets
+├── logo.png
+├── hero-flower.png
+├── sample-flower-image.png
+├── flower-store.png
+├── trusted-badge.png
+├── deal-*.png
+├── icon-*.png
+```
 
 ---
 
-## 📌 Rules
+## 📦 How to Use
 
-- ✅ Minimum **5 meaningful commits** required.
-- ❌ No Lorem Ipsum or dummy placeholder text. Use relevant content only.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/projoynaidu-cmd/assignment2.git
+   cd assignment2
+   ```
 
----
-
-## 🔗 What to Submit
-
-- 📂 **GitHub Repository:**
-- 🌐 **Live Link:**
+2. **Open `index.html` in your browser** or use Live Server.
 
 ---
 
-# Let's Code and Achieve your Dream 🎯
+## 👨‍💻 Author
+
+**Projoy Naidu**  
+Frontend Developer | Tailwind Enthusiast  
+[GitHub](https://github.com/your-username) | [Portfolio](https://your-portfolio.com)
+
+---
+
+## 📄 License
+
+This project is open source and free to use for learning and non-commercial purposes.
