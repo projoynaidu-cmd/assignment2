@@ -29,42 +29,40 @@
     </style>
   </head>
 
-  <body class="max-w-[1240px] mx-auto bg-[#F5F8FF]">
+  <body class=" bg-[#F5F8FF]">
     <!-- navbar -->
-    <nav class="flex justify-between items-center px-[40px] py-[10px]">
+    <nav class="flex justify-between items-center px-[80px] py-[10px]">
       <!-- logo -->
       <img class="w-20 md:w-40" src="assets/logo.png" alt="" />
       <!-- menu -->
       <div class="flex items-center">
         <ul
-          class="hover:text-gray-800 flex gap-[40px] items-center mr-[40px] hidden md:flex"
+          class="hidden md:flex items-center space-x-8 text-lg font-semibold font-sans mr-8"
         >
           <li
-            class="hover:text-gray-800 text-gray-600 text-base font-sans font-medium"
           >
-            <a href="#"> Home</a>
+            <a href="#" class="text-[#FF6F00] font-bold transition duration-200"> Home</a>
           </li>
           <li
-            class="hover:text-gray-800 text-gray-600 text-base font-sans font-normal"
+            
           >
-            <a href="#"> Shop</a>
+            <a href="#"  class="text-gray-600 hover:text-[#FF6F00] transition duration-200" > Shop</a>
           </li>
-          <li
-            class="hover:text-gray-800 text-gray-600 text-base font-sans font-normal mr-[10px]"
-          >
-            <a href="#"> About Us</a>
+          <li class="">
+           
+            <a href="#"  class="text-gray-600 hover:text-[#FF6F00] transition duration-200 "> About Us</a>
           </li>
         </ul>
         <!-- cart -->
-        <div class="flex gap-[10px] items-center">
-          <i class="fa-solid fa-cart-shopping text-2xl"> </i>
-          <span class="font-normal capitalize text-xl">cart($59)</span>
+        <div class="flex gap-2 items-center group cursor-pointer ">
+          <i class="fa-solid fa-cart-shopping text-2xl text-gray-700 group-hover:text-[#FF6F00] transition duration-200"> </i>
+          <span class="text-gray-600 group-hover:text-[#FF6F00] capitalize text-sm font-semibold transition duration-200">cart($59)</span>
         </div>
       </div>
     </nav>
 
     <!-- hero section -->
-    <section class="px-8 py-10">
+    <section class="px-20 py-10">
       <div
         class="flex justify-between items-center flex-col-reverse md:flex-row md:h-[600px] gap-8"
       >
@@ -249,7 +247,7 @@
       </div>
     </section>
 
-    <!--  badge and content -->
+    <!--  plants lover section -->
     <section>
       <div
         class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-15 p-8 mt-5 md:mt-20"
@@ -344,5 +342,27 @@
         </div>
       </div>
     </section>
+
+    <!-- news letter -->
+    <section>
+      <div class=" relative bg-[url('assets/news-letter-bg.png')] bg-cover bg-center h-100 w-full">
+       <div class="flex flex-col items-center justify-center h-full">
+        <h2 class="text-3xl md:text-5xl font-noto-serif font-bold text-white">Join the colorful Bunch</h2>
+        <p class="text-white text-lg md:text-2xl mt-4 text-center ma-auto">Subscribe to our newsletter and get 20% off your first purchase.</p>
+        <div class="flex gap-0 mt-4">
+        <input class="px-4 py-2 w-50 md:w-100  text-black  bg-white" type="email" placeholder="Enter your email">
+        <button class="px-6 py-2 bg-[#FF6F00] text-white font-semibold">Subscribe</button>
+        </div>
+       </div>
+       <!-- Overlay -->
+  <div class="absolute inset-0 bg-black/30 bg-opacity-50"></div>
+      </div>
+
+    </section>
+
+    <!-- footer -->
+     <footer>
+
+     </footer>
   </body>
 </html>
